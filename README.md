@@ -153,7 +153,11 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 **🎯 Problem:** Graphene is attractive for lightweight, self-sensing collaborative robot structures, but conventional production (CVD, exfoliation, chemical routes) is costly and hard to scale. Can friction-induced shear in a solid-state process measurably modify graphite, and does it support a future Friction Stir Additive Manufacturing (FSAM) route toward graphene?
 
-**🛠️ Approach:**
+**🚀 Long-Term Vision:** If graphene formation is confirmed, the goal is to develop a **Friction Stir Additive Manufacturing (FSAM) machine** that converts graphite directly into graphene in a solid-state process, and to use that graphene to build **lightweight, high-strength and potentially self-sensing collaborative robot (cobot) structures**, improving energy efficiency and reducing dependence on external sensors.
+
+`Graphite  →  Friction Stir Processing / FSAM  →  Graphene structure  →  Characterization  →  Cobot application`
+
+**🛠️ Approach (current phase):**
 - **Stage 1 (done):** Pilot friction stir welding on AA6061-T6 to learn the process and the Jyoti PX10 vertical machining center (VMC).
 - **Stage 2 (ongoing):** Friction stir processing (FSP) of **G347 isostatic graphite**, varying spindle speed, feed rate, plunge depth and plunge dwell time (1000–2000 RPM, 15–35 mm/min, 1–1.2 mm plunge, 2–6 s dwell).
 - **Stage 3 (pending):** Taguchi L9 optimization with Raman spectroscopy.
@@ -172,7 +176,7 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 - The HDS-15/H13 steel tool wore badly under aggressive conditions, so tungsten carbide tooling is being evaluated.
 - The most aggressive settings cracked the graphite plate, which defines the safe parameter limits.
 
-> ⚠️ **Status:** Measurable property changes are confirmed. **Graphene formation is not yet confirmed.** Raman spectroscopy and Taguchi L9 optimization are pending.
+> ⚠️ **Status:** Measurable property changes are confirmed. **Graphene formation is not yet confirmed**, and the FSAM machine and cobot application are the long-term target, not completed work. Raman spectroscopy and Taguchi L9 optimization are pending.
 
 **🧰 Tech:** Jyoti PX10 VMC · Friction Stir Welding/Processing · G347 graphite · AA6061-T6 · Hardness and thermal diffusivity/conductivity testing
 
