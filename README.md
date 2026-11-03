@@ -126,7 +126,7 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 <p><b>👩‍💻 My Role:</b> Built the full pipeline: detection, OCR, accuracy improvements and data logging.</p>
 
-<a href="https://github.com/prachikale05/REPLACE-WITH-YOUR-ANPR-REPO-NAME"><img src="https://img.shields.io/badge/View_Project-→-2ea043?style=for-the-badge" alt="View project"/></a>
+<a href="https://github.com/prachikale05/https:/Automatic_Number_Plate_Recognition"><img src="https://img.shields.io/badge/View_Project-→-2ea043?style=for-the-badge" alt="View project"/></a>
 
 </td>
 
