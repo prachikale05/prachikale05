@@ -50,12 +50,6 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=py,cpp,matlab,ros,opencv,arduino,ubuntu,linux,git,github,vscode&theme=dark" alt="Skill icons"/>
-
-</div>
-
 <br/>
 
 | | |
