@@ -26,7 +26,7 @@ Software architectures, vision pipelines, and deep learning algorithms:
 ![](https://skillicons.dev)
 * **Key Environments:** Gazebo | RViz2 | Nav2 | SLAM Toolbox | AMCL | ABB RobotStudio
 
-### 🔌 Microcontrollers & Hard Hardware
+### 🔌 Microcontrollers & Hardware
 Embedded devices, sensor suites, and circuit configurations:
 ![](https://skillicons.dev)
 * **Hardware Ecosystems:** ESP32 | Arduino Uno | Ultrasonic Sensors | IMUs | L298N Motor Drivers
@@ -45,6 +45,7 @@ An autonomous ground vehicle engineered to map and navigate virtual environments
 *   **Solution:** Incorporated sensor configurations (LiDAR, Camera, IMU) using the **SLAM Toolbox** for precise mapping alongside the **Nav2 Stack** and AMCL for active localization path planning.
 *   **Technologies:** ROS2 Humble, Gazebo, RViz2, URDF/Xacro, ros2_control, Python.
 *   **My Role:** Wrote the model architecture layout using Xacro, wired physical simulator control nodes, and configured Nav2 pipeline limits.
+*   🔗 **[View Repository](https://github.com)**
 
 ### ⚙️ Robotic Drilling & Pick-and-Place Simulation
 A multi-agent production line simulation managing physical manufacturing loops seamlessly.
