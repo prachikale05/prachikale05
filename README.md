@@ -74,7 +74,7 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 <p><b>💡 Solution:</b> A Gazebo simulation with two coordinated robots, a conveyor and sensors. Topic-based coordination makes Robot 1 pick the workpiece and place it in a trolley after Robot 2 finishes drilling.</p>
 
-<p><b>📊 Result:</b> <b>0.00806 mm</b> average simulated position error across two drill points.</p>
+<p><b>📊 Result:</b> <b>0.00806 mm</b> average simulated drill-tip position error across two drill points. Repo includes a full demo video and step-by-step screenshots.</p>
 
 <p><b>🧰 Tech:</b> ROS 2 Humble · Gazebo Classic · Python · C++ (custom gripper plugin) · URDF/Xacro · ros2_control</p>
 
@@ -114,7 +114,7 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 <p><b>💡 Solution:</b> YOLOv8 detects the plate and PaddleOCR reads it. Accuracy was improved with multi-variant voting, two-row plate handling and a plate-format corrector.</p>
 
-<p><b>📊 Result:</b> <b>100%</b> plate detection on 47 test plates. Exact-match OCR accuracy raised from <b>~33% to 80.85%</b>.</p>
+<p><b>📊 Result:</b> <b>100%</b> plate detection on 47 ground-truth plates. Exact-match OCR accuracy raised from <b>~33% to 80.85%</b> (average character similarity 95.6%).</p>
 
 <p><b>🧰 Tech:</b> Python · YOLOv8 · OpenCV · PaddleOCR · Pandas · Jupyter</p>
 
@@ -145,15 +145,36 @@ Outside of code, I lead and organise: Event Management Head at the Students Asso
 
 ---
 
-## 🔬 Currently Working On
+## 🔬 Final Year Research Project
 
-<table>
-<tr>
-<td width="33%" valign="top">
+### 🧪 Friction Stir Processing of Graphite toward FSAM of Graphene for Cobot Applications
 
-**🧪 Friction Stir Processing of Graphite**
+*Team of 4 · Guided by Dr. P. J. Pawar (HOD, Robotics & Automation, KKWIEER) · 2026 – Present*
 
-Using a Vertical Machining Center to study graphite's electrical and thermal properties for graphene synthesis and cobot applications.
+**🎯 Problem:** Graphene is attractive for lightweight, self-sensing collaborative robot structures, but conventional production (CVD, exfoliation, chemical routes) is costly and hard to scale. Can friction-induced shear in a solid-state process measurably modify graphite, and does it support a future Friction Stir Additive Manufacturing (FSAM) route toward graphene?
+
+**🛠️ Approach:**
+- **Stage 1 (done):** Pilot friction stir welding on AA6061-T6 to learn the process and the Jyoti PX10 vertical machining center (VMC).
+- **Stage 2 (ongoing):** Friction stir processing (FSP) of **G347 isostatic graphite**, varying spindle speed, feed rate, plunge depth and plunge dwell time (1000–2000 RPM, 15–35 mm/min, 1–1.2 mm plunge, 2–6 s dwell).
+- **Stage 3 (pending):** Taguchi L9 optimization with Raman spectroscopy.
+
+**📊 Results so far (FSP-processed vs unprocessed graphite):**
+
+| Property | Unprocessed | FSP-processed | Change |
+|---|---|---|---|
+| Hardness (HRB) | 75–80 | 95–100 | Increased |
+| Thermal conductivity (25 °C) | 93.4 W/m·K | 271.5 W/m·K | +190.6% (2.91×) |
+| Thermal diffusivity (25 °C) | 53.0 mm²/s | 207.5 mm²/s | +291.7% (3.92×) |
+| Electrical conductivity | 0.138 %IACS | 0.141 %IACS | Marginal |
+
+**🔎 Key learnings:**
+- At ~12,000 RPM the tool softened and carbon sparked, so the working window was narrowed to 1000–2000 RPM.
+- The HDS-15/H13 steel tool wore badly under aggressive conditions, so tungsten carbide tooling is being evaluated.
+- The most aggressive settings cracked the graphite plate, which defines the safe parameter limits.
+
+> ⚠️ **Status:** Measurable property changes are confirmed. **Graphene formation is not yet confirmed.** Raman spectroscopy and Taguchi L9 optimization are pending.
+
+**🧰 Tech:** Jyoti PX10 VMC · Friction Stir Welding/Processing · G347 graphite · AA6061-T6 · Hardness and thermal diffusivity/conductivity testing
 
 ---
 
